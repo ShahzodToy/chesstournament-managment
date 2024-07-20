@@ -33,17 +33,22 @@ This is a sample Django project that demonstrates setting up a Django applicatio
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
+Install packages
+```bash
 pip install -r requirements.txt
 
 For API documentation 
+```bash
 pip install drf-yasg
 
+```bash
 python manage.py migrate
 
+```bash
 python manage.py runserver
 
 Create Super to see what is happing in background
-
+```bash
 python manage.py createsuperuser
 
 
