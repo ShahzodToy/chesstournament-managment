@@ -1,0 +1,46 @@
+**Requirements:**
+
+- **User Authentication and Authorization:**✅
+    - Implement user registration and login functionality.✅
+    - Use JWT for authentication.✅
+    - Differentiate between regular users and admin users.✅
+
+- **Player Management:**
+    - Allow admins to (update, delete), and (view player information)✅.
+    - Player information should include name, age, rating, and country.✅
+
+- **Tournament Management:**
+    - Allow admins to create tournaments with specific start and end dates.✅
+    - Each tournament should have a unique name and a list of participants.✅
+    - Allow admins to assign players to tournaments.✅
+- **Match Management:**
+    - Automatically generate pairings for each round based on the Swiss-system tournament rules.✅
+    - Allow admins to update the match results.✅
+- **Leaderboard:**
+    - Generate and display a leaderboard for each tournament showing the players' ranks, points, and other relevant statistics.✅
+- **API Documentation:**
+    - Document all the API endpoints using Swagger or similar tools✅
+
+🚚 Deliverables:
+
+🗞️ Source code repository GitHub/GitLab
+
+📋 Deatailed README.md file explaining how to set up and run the project
+
+⛓️ API documentation link or file
+
+---
+
+## 🪄 Evaluation Criteria
+
+**Code Quality:** Clean, well-documented code with proper use of design patterns.
+
+**Functionality:** Completion of all specified features and requirements.
+
+**User Experience:** Intuitive and user-friendly interface.
+
+**Performance:** Efficient and optimized code.
+
+**Testing:** Adequate coverage of unit tests and proper handling of edge cases.
+
+
